@@ -1,0 +1,19 @@
+{  
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "useDefineForClassFields": true,
+        "jsx": "preserve",
+        "noImplicitThis": true,
+        "isolatedModules": true,
+        "target": "ESNext",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "include": [ 
+        "src/**/*.ts"
+    ],
+    "exclude": ["node_modules", "dist"]
+}

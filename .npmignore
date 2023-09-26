@@ -1,0 +1,13 @@
+src/*
+test/*
+example/*
+playgrounds/*
+.babelrc
+.eslintrc.js
+rollup.config.js
+.editorconfig
+.eslintrc.json
+.gitignore
+.prettierrc.json
+tsup.config.ts
+tsconfig.json
