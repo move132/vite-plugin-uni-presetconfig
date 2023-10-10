@@ -8,6 +8,6 @@ export default defineConfig({
 	outDir: 'dist',
 	format: ['cjs', 'esm'],
 	globalName: 'denseLabs',
-	entry: ['src/index.ts'],
+	entry: ['src/command/index.ts', 'src/index.ts'],
 	noExternal: ['slash']
 })
