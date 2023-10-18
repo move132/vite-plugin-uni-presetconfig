@@ -7,7 +7,6 @@ const options = require(path.join(process.cwd(), pkg['cli-config'].configFile ||
 const envName = process.env.NODE_ENV === 'development' ? 'dev' : 'prod'
 const envConfig = require(path.join(process.cwd(), 'config', 'env', `${envName}.js`))
 const isDev = process.env.APP_ENV !== 'prod'
-
 export default {
 	deviceRatio: {
 		640: 2.34 / 2,
@@ -18,7 +17,7 @@ export default {
 	routers: getRouters,
 	defineConstants: {
 		isDev: JSON.stringify(isDev),
-		routers: JSON.stringify(getRouters.routes),
+		routers: JSON.stringify(getRouters),
 		routesMap: JSON.stringify(getRouters.routesMap),
 		routesLinkMap: JSON.stringify(getRouters.routesLinkMap),
 		barIconRouters: JSON.stringify(getRouters.barIconRouters),

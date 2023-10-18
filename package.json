@@ -32,7 +32,8 @@
     "dev": "rollup -c -w",
     "lint": "eslint --ext .js,.vue,.ts src",
     "release": "rollup -c && release-it",
-    "tsup": "tsup"
+    "tsup": "tsup",
+    "debug": "cd example && pnpm run dev"
   },
   "dependencies": {
     "@dense-labs/eslint-config-ts": "^1.0.1",
