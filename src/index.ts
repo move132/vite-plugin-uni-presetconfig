@@ -4,7 +4,7 @@ import path from 'path'
 // import {parse} from 'comment-json'
 import pxtoRpx from 'postcss-pxtorpx-pro'
 import config from './config'
-const pkg = require(path.join(process.cwd(), 'package.json'))
+// const pkg = require(path.join(process.cwd(), 'package.json'))
 
 interface PostcssPxToViewportOptions {
 	unit?: 'rpx'
